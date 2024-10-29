@@ -5,18 +5,21 @@ Curso: Sistemas de informação.
 
 Membros: Caio, Cauê, Matheus Veloso e Cesar.
 
-Jogo da Adivinhação( Play Tech )
-Descrição: O programa escolhe um número aleatório entre 1 e 100, e o jogador tenta adivinhar esse número. 
-A cada tentativa, o jogo informa se o palpite está alto, muito alto,baixo, muito baixo ou correto.
-O jogo termina quando o jogador acerta o número.
+NavyFight é uma versão simplificada do clássico jogo de Batalha Naval. 
+O jogador deve adivinhar a posição dos navios inimigos em um tabuleiro 5x5, onde cada célula representa um ponto do oceano. 
+O objetivo é acertar todas as posições dos navios antes de esgotar as tentativas.
 
-Compile com o comando no terminal: gcc -o guess guess.c
 
-Execute o jogo: ./guess
+Nossas regras:
+  -O jogo inicia com um tabuleiro de tamanho 5x5, e três navios são posicionados em locais aleatórios.
+  -O jogador insere as coordenadas (linha e coluna) para disparar um tiro.
+  -Se o jogador acertar a posição de um navio, um "X" é exibido na célula; se errar, um "O" aparece.
+  -O jogo termina quando todos os navios forem afundados, ou se o jogador desejar sair.
+  -Compile com o comando no terminal: gcc -o guess guess.c
 
-Regras:
+Interação:
+  -O jogo exibe o tabuleiro e solicita que o jogador insira as coordenadas para atirar.
+  -O jogador deve inserir as coordenadas no formato linha coluna (por exemplo, 2 3 para a linha 2, coluna 3).
+  -Após cada tentativa, o jogo exibe o estado atualizado do tabuleiro e a pontuação do jogador.
 
-O programa escolhe um número aleatório entre 1 e 100.
-O jogador chuta números até adivinhar o número.
-O programa dá dicas dizendo se o número é alto, muito alto, baixo, muito baixo ou se é o numero correto.
-O jogo termina quando o jogador acerta o número.
+Compilação com os comandos "make" e "./build/naval" .
