@@ -23,15 +23,43 @@ O objetivo é afundar todos os navios ate que 1 jogador ganhe
 
 ---
 
-## Estrutura do Projeto
+<footer style="text-align: center; padding: 20px; background: #f4f4f4;">
+    <p>
+        Este projeto foi desenvolvido em 
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C Logo" style="width: 20px; vertical-align: middle;">
+        C
+    </p>
+</footer>
 
-```plaintext
-/projeto
-├── src/         # Código-fonte (.c)
-├── include/     # Arquivos de cabeçalho (.h)
-├── build/       # Binários gerados
-├── cli-lib/     # Biblioteca CLI-lib para interface
-├── README.md    # Documentação do projeto
-└── Makefile     # Arquivo de build
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
